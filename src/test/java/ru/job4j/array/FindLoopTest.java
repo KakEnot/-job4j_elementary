@@ -21,8 +21,6 @@ public class FindLoopTest {
         int result = FindLoop.indexOf(data, el);
         int expected = -1;
         assertThat(result).isEqualTo(expected);
-        /* Здесь нужно дописать тест, когда в массиве не найдено число 10.
-        Можно искать любое другое число, корректно изменив при этом название теста */
     }
 
     @Test
