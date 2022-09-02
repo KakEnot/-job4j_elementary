@@ -9,7 +9,9 @@ public class JavaNameValidator {
             char[] array = name.toCharArray();
             if (!isUpperCase(array[0]) && !isDigit(array[0]) && !isSpecialSymbol(array[0])) {
                 for (int i = 1; i < array.length; i++) {
-                    return isSpecialSymbol(array[i]) || isUpperLatinLetter(array[i]) || isLowerLatinLetter(array[i]);
+                    if (isSpecialSymbol(array[i]) && isUpperLatinLetter(array[i]) && isLowerLatinLetter(array[i])) {
+                        return false;
+                    }
                 }
                 return true;
             }
