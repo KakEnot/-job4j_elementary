@@ -13,7 +13,3 @@ public class Point {
         System.out.println("result1 (1, 3) to (4, 5) " + result1);
     }
 }
-
-/*Задание
-1. Создайте класс ru.job4j.condition.Point. Допишите метод distance.
-2. Доработайте метод main. Нужно добавить в него вызов метода distance с различными аргументами.*/
