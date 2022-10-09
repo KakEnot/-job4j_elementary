@@ -49,7 +49,7 @@ public class PointTest {
     }
 
     @Test
-    public void when40to30to20then4() {
+    public void whenMinus2Minus45toMinus200then6dot4() {
         double expected = 6.4;
         int x1 = -2;
         int y1 = -4;
@@ -62,7 +62,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to00to00then0() {
+    public void when000to000then0() {
         double expected = 0;
         int x1 = 0;
         int y1 = 0;
