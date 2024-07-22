@@ -30,12 +30,7 @@ public class SimpleStringEncoder {
                     result += symbol;
                 }
             }
-
-
         }
-        /*
-        цикл fori
-         */
         return result;
     }
 }
