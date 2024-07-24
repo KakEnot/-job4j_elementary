@@ -19,13 +19,9 @@ public class SimpleStringEncoder {
                 counter = 1;
             }
         }
-        if (symbol == input.charAt(input.length() - 1)) {
-            result += symbol;
-            if (counter > 1) {
-                result += counter;
-            }
-        } else {
-            result += symbol;
+        result += symbol;
+        if (counter > 1) {
+            result += counter;
         }
         return result;
     }
